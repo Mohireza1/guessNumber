@@ -1,5 +1,5 @@
 "use strict";
-let guesser = () => {
+setTimeout(() => {
   const random = Math.floor(Math.random() * (100 - 1)) + 1;
   alert(`I have a number in mind, what could it be?`);
   let target = prompt(`What could the numebr be?`);
@@ -28,5 +28,4 @@ let guesser = () => {
       `You win! The number was ${random} and it took you ${turn} guesse\(s\) to guess it!`
     );
   }
-};
-guesser();
+}, 10);
