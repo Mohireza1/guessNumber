@@ -24,6 +24,7 @@ setTimeout(() => {
       temp = Number(target);
     }
   }
+  
   if (temp === random) {
     alert(
       `You win! The number was ${random} and it took you ${turn} guesse\(s\) to guess it!`
