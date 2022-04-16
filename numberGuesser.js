@@ -7,6 +7,7 @@ setTimeout(() => {
   let temp = Number(target);
   while (isNaN(temp)) {
     target = prompt("Please enter a number between 1 and 100");
+    temp = Number(target);
   }
   let turn = 1;
   while (temp !== random && target !== null) {
